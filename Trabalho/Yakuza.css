@@ -117,6 +117,9 @@ footer{
 .Lindao a{
     color: gold;
 }
+.Lindao a:hover{
+    color: #f4f4f4;
+}
 input{
     border-radius: 5px;
     border-style: outset;
@@ -208,9 +211,10 @@ button:active{
 }
 .ResuminTT{
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 10px;
     font-size: 50px;
+    text-decoration: underline;
 }
 .PosNeg{
     justify-content: center;
@@ -224,9 +228,8 @@ button:active{
     border-top-right-radius: 10px;
 }
 .Posi li{
-    margin-left: 130px;
-    width: 300px;
-    text-align: center;
+    margin-left: 90px;
+    text-align: justify;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -240,5 +243,28 @@ button:active{
     margin-left: 30px;
 }
 .PosNegTT{
-    text-align: center;
+    text-align: center; padding: 30px;
+}
+.Notin{
+    color: gold;
+}
+html{
+    scroll-behavior: smooth;
+}
+.In{
+    background: none;
+    color: #f4f4f4;
+    position: fixed;
+    right: 30px;
+    bottom: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    border-style: solid white;
+}
+.In:hover{
+    background: none;
+    color: gold;
 }

@@ -430,3 +430,6 @@ button:active{
 .Lindao a{
     color: gold;
 }
+html{
+    scroll-behavior: smooth;
+}
