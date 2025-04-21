@@ -31,7 +31,7 @@ S para SIM e N para NÂO.
     if novamente.upper() == 'S':
         colegio()
     elif novamente.upper() == 'N':
-        print('Obrigado por usar esta ferramente')
+        print('Obrigado por usar esta ferramenta')
     else:
         print('Valor inválido, tente novamente')
         dnvo()
