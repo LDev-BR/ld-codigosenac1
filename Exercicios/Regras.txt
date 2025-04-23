@@ -1,0 +1,7 @@
+Quando houver vários códigos "IF" em python todos eles serão executados em sequencia
+e se houver "ELIF" o elif será entendido como "Senão" e houvera apenas uma linha if/elif sendo feita.
+(Se uma coisa, então outra coisa = ELIF. O elif só será executado se o IF for falso.)
+(Se = 'IF')
+(.append) - Adciona algo ao final da lista
+(for 'x' in range(y)) - 'x' = valor aleatório e 'y' = quantidade de repetições do loop
+(while 'x' true) - enquanto algo for verdadeiro então repita a função - EX: 'while x > y:'
