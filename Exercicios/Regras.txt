@@ -5,3 +5,9 @@ e se houver "ELIF" o elif será entendido como "Senão" e houvera apenas uma lin
 (.append) - Adciona algo ao final da lista
 (for 'x' in range(y)) - 'x' = valor aleatório e 'y' = quantidade de repetições do loop
 (while 'x' true) - enquanto algo for verdadeiro então repita a função - EX: 'while x > y:'
+'''def media_notas()
+notas = [5.9 , 8.5, 9.9, 9.7]
+media = sum(notas) / len(notas)
+'''
+sum - soma
+len - tamanho(lenght)
