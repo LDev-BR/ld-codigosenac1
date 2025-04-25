@@ -1,9 +1,9 @@
-def divisor():
-    numero_1 = int(input("Digite o primeiro número: "))
-    numero_2 = int(input("Digite o segundo número: "))
-    if (numero_1) % (numero_2) == 0:
-        print("Brabo")
+def multiplos():
+    numero_1 = int(input("Primeiro número: "))
+    numero_2 = int(input("Segundo número: "))
+    if numero_1 % numero_2 == 0:
+        print("Os dois números são múltiplos um do outro")
     else:
-        print("Nope")
+        print("Os dois números não são múltiplos um do outro")
 
-divisor()
+multiplos()

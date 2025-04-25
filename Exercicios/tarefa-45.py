@@ -10,7 +10,7 @@ def tasks():
         (L) - Listar tarefas
         (R) - Remover tarefa (por nome)
         (S) - Sair
-        Escolha: ''')
+        Escolha: ''').upper()
         if escolha == 'A':
             tarefa = input("Nome da tarefa: ")
             print("Adcionado com sucesso")
@@ -25,6 +25,7 @@ def tasks():
             tasks.remove(remover)
             time.sleep(1)
         elif escolha == 'S':
+            print("Obrigado")
             break
         else:
             break
